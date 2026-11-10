@@ -1,0 +1,326 @@
+{
+ "scope": "Descriptive. Two events, one token, Bitcoin fell in both. Not a backtest.",
+ "events": {
+  "2025-01-18": {
+   "float_before": 1445178270,
+   "float_after": 3159107529,
+   "float_increase": 1.1859639011870833,
+   "flat_cap_price_change": -0.5425359039749229,
+   "windows": {
+    "T-70..T+30": {
+     "ondo": 0.6096249706396637,
+     "btc": 0.2485234512825607,
+     "circulating_cap_change": 2.5378198869305573
+    },
+    "T-70..T+60": {
+     "ondo": 0.15392645562022067,
+     "btc": 0.13246118218271397,
+     "circulating_cap_change": 1.5362329966378265
+    },
+    "T-70..T+90": {
+     "ondo": 0.08334420753190486,
+     "btc": 0.1010272164654964,
+     "circulating_cap_change": 1.38109917012178
+    },
+    "T-30..T+30": {
+     "ondo": -0.2928037426042288,
+     "btc": -0.016333304954257555,
+     "circulating_cap_change": 0.5543577100343777
+    },
+    "T-30..T+60": {
+     "ondo": -0.49301701600697156,
+     "btc": -0.10777458989582345,
+     "circulating_cap_change": 0.11430582640200426
+    },
+    "T-30..T+90": {
+     "ondo": -0.5240276567444847,
+     "btc": -0.1325402802298521,
+     "circulating_cap_change": 0.04614705432229771
+    },
+    "T-14..T+30": {
+     "ondo": -0.21821742519789844,
+     "btc": -0.024723080220568572,
+     "circulating_cap_change": 0.7089484870944847
+    },
+    "T-14..T+60": {
+     "ondo": -0.43954671922830724,
+     "btc": -0.11538445481792303,
+     "circulating_cap_change": 0.22513064006878913
+    },
+    "T-14..T+90": {
+     "ondo": -0.4738279789330917,
+     "btc": -0.13993891651397494,
+     "circulating_cap_change": 0.150193043866911
+    },
+    "T-1..T+30": {
+     "ondo": -0.05986006737496763,
+     "btc": -0.07996772551317388,
+     "circulating_cap_change": 1.0551119547827774
+    },
+    "T-1..T+60": {
+     "ondo": -0.32602167583799524,
+     "btc": -0.16549357872189185,
+     "circulating_cap_change": 0.4732922868007088
+    },
+    "T-1..T+90": {
+     "ondo": -0.36724692468332243,
+     "btc": -0.18865715081598744,
+     "circulating_cap_change": 0.38317538100736903
+    }
+   },
+   "pre_event_beta_90d": {
+    "beta": 1.4237636543952281,
+    "n": 79,
+    "ondo_log": -0.7423955288431068,
+    "btc_log": -0.14218620078076288,
+    "residual_log": -0.5399559840149142,
+    "residual_simple": -0.4172260968231065
+   },
+   "replay_T-30_entry": {
+    "entry": 1.74424,
+    "target": 0.7979271748507805,
+    "stop": 2.093088,
+    "exit_day": "2025-03-10",
+    "exit_reason": "target",
+    "exit_price": 0.78223,
+    "days_held": 81,
+    "price_return_short": 0.5515353391735083,
+    "worst_adverse_close": 0.03262739072604681,
+    "worst_adverse_day": "2024-12-20",
+    "funding_binance": {
+     "pnl_fraction_entry_notional": -0.07896904817599669,
+     "rate_sum": -0.0984988100000012,
+     "settlements": 486
+    },
+    "net_after_funding": 0.4725662909975116,
+    "funding_full_window": {
+     "pnl_fraction_entry_notional": -0.08201124982880828,
+     "rate_sum": -0.10506310000000169,
+     "settlements": 720
+    }
+   },
+   "replay_with_5pct_funding_cap": {
+    "exit_day": "2025-01-15",
+    "price_return_short": 0.2603368802458378,
+    "net_after_funding": 0.20990411636535117
+   },
+   "funding_7d_before_entry_rate_sum": -0.00958242
+  },
+  "2026-01-18": {
+   "float_before": 3159107529,
+   "float_after": 4869330647,
+   "float_increase": 0.5413627432116446,
+   "flat_cap_price_change": -0.35122345184212744,
+   "windows": {
+    "T-70..T+30": {
+     "ondo": -0.5914847389020343,
+     "btc": -0.35558782921239274,
+     "circulating_cap_change": -0.37032979651021836
+    },
+    "T-70..T+60": {
+     "ondo": -0.6166197895739393,
+     "btc": -0.33217122697895163,
+     "circulating_cap_change": -0.4090720271646294
+    },
+    "T-70..T+90": {
+     "ondo": -0.6157715374198254,
+     "btc": -0.2765952894576098,
+     "circulating_cap_change": -0.40776456289742913
+    },
+    "T-30..T+30": {
+     "ondo": -0.3096172224737186,
+     "btc": -0.2341392840378851,
+     "circulating_cap_change": 0.06413029183398367
+    },
+    "T-30..T+60": {
+     "ondo": -0.3520949650419998,
+     "btc": -0.20630949347079464,
+     "circulating_cap_change": -0.0013433179765003356
+    },
+    "T-30..T+90": {
+     "ondo": -0.3506614355414718,
+     "btc": -0.1402594881638819,
+     "circulating_cap_change": 0.0008662709869085017
+    },
+    "T-14..T+30": {
+     "ondo": -0.37419354838709684,
+     "btc": -0.2626106629942947,
+     "circulating_cap_change": -0.03540525102239023
+    },
+    "T-14..T+60": {
+     "ondo": -0.41269805083779776,
+     "btc": -0.23581546330906944,
+     "circulating_cap_change": -0.09475465654580206
+    },
+    "T-14..T+90": {
+     "ondo": -0.4113986093696569,
+     "btc": -0.17222091066080825,
+     "circulating_cap_change": -0.0927517458798256
+    },
+    "T-1..T+30": {
+     "ondo": -0.2872091815538015,
+     "btc": -0.2906454937068126,
+     "circulating_cap_change": 0.0986692112563059
+    },
+    "T-1..T+60": {
+     "ondo": -0.33106564187785625,
+     "btc": -0.2648690216453603,
+     "circulating_cap_change": 0.031070497263668173
+    },
+    "T-1..T+90": {
+     "ondo": -0.32958558371416713,
+     "btc": -0.2036922724941933,
+     "circulating_cap_change": 0.03335180377496494
+    }
+   },
+   "pre_event_beta_90d": {
+    "beta": 1.725709328523283,
+    "n": 90,
+    "ondo_log": -0.4318010273325862,
+    "btc_log": -0.15112466568748495,
+    "residual_log": -0.1710037819857309,
+    "residual_simple": -0.15718161406151698
+   },
+   "replay_T-30_entry": {
+    "entry": 0.39762,
+    "target": 0.25796653107853323,
+    "stop": 0.47714399999999996,
+    "exit_day": "2026-02-05",
+    "exit_reason": "target",
+    "exit_price": 0.22462,
+    "days_held": 48,
+    "price_return_short": 0.4350887782304713,
+    "worst_adverse_close": 0.14961521050248994,
+    "worst_adverse_day": "2026-01-06",
+    "funding_binance": {
+     "pnl_fraction_entry_notional": -0.0017447997042402289,
+     "rate_sum": -0.0021164199999999986,
+     "settlements": 288
+    },
+    "net_after_funding": 0.4333439785262311,
+    "funding_full_window": {
+     "pnl_fraction_entry_notional": -0.00045860733162315844,
+     "rate_sum": -0.0003214499999999946,
+     "settlements": 720
+    }
+   },
+   "replay_with_5pct_funding_cap": null,
+   "funding_7d_before_entry_rate_sum": -0.0013499700000000002
+  }
+ },
+ "rolling_120d": {
+  "n_overlapping": 649,
+  "median": -0.07303773855646434,
+  "share_down_26pct_or_more": 0.3975346687211094,
+  "share_up_20pct_or_more": 0.2896764252696456,
+  "event_percentiles": {
+   "2025-01-18": 0.17873651771956856,
+   "2026-01-18": 0.3266563944530046
+  }
+ },
+ "since_first_unlock": {
+  "from": "2025-01-17",
+  "to": "2026-11-08",
+  "ondo": -0.7324360166455802,
+  "btc": -0.28194953269232614,
+  "float": 2.369363315295351,
+  "circulating_cap_from": 1896160600.9362,
+  "circulating_cap_to": 1709427216.9358199,
+  "circulating_cap_change": -0.09847972999132215
+ },
+ "circulating_cap_range_since_2025_unlock": {
+  "min": 1093749049.9291399,
+  "median": 2058899077.47101,
+  "max": 4941444405.7865095
+ },
+ "distributor_payouts": {
+  "2025": {
+   "tokens": 1359038758.0,
+   "usd_at_daily_close": 1573679228.56972,
+   "avg_price": 1.1579355035360368
+  },
+  "2026_to_8_Nov": {
+   "tokens": 998660650.0,
+   "usd_at_daily_close": 360425014.53646,
+   "avg_price": 0.36090839719824747
+  }
+ },
+ "positioning": {
+  "funding_binance_ONDOUSDT": {
+   "30d_rate_sum_to_shorts": 0.004890629999999998,
+   "90d_rate_sum_to_shorts": 0.01570830999999993,
+   "365d_rate_sum_to_shorts": 0.007774429999999937
+  },
+  "funding_bybit_ONDOUSDT": {
+   "30d_rate_sum_to_shorts": 0.0017538299999999979,
+   "90d_rate_sum_to_shorts": 0.011724199999999938,
+   "365d_rate_sum_to_shorts": 0.027575900000000254
+  },
+  "funding_hyperliquid_ONDO": {
+   "30d_rate_sum_to_shorts": 0.005507664900000031,
+   "90d_rate_sum_to_shorts": 0.0345445996999988,
+   "365d_rate_sum_to_shorts": 0.07502259449999525
+  },
+  "perp_binance": {
+   "oi_30d_avg": 50191557.51523934,
+   "oi_ref": 33191064.80214411
+  },
+  "perp_bybit": {
+   "oi_30d_avg": 53527798.336,
+   "oi_ref": 45086738.17
+  },
+  "perp_hl": {
+   "oi_30d_avg": 29580126.144234467,
+   "oi_ref": 15629936.072306
+  },
+  "oi_30d_avg_total": 133299481.99547382,
+  "oi_share_of_circulating_cap": 0.07797903337143282,
+  "closes_last_30d": {
+   "max": 0.5214,
+   "min": 0.35106,
+   "change_from_30d_high": -0.3266973532796318
+  }
+ },
+ "proposed_trade": {
+  "entry": 0.35106,
+  "target": 0.26,
+  "stop_daily_close_above": 0.42,
+  "gain": 0.2593858599669572,
+  "loss": 0.1963766877456845,
+  "days_to_unlock": 71,
+  "holding_days": 161,
+  "breakeven_target_probability": {
+   "cost_0pct": 0.43087500000000006,
+   "cost_2pct": 0.47475750000000005,
+   "cost_5pct": 0.54058125
+  },
+  "replay_entry_71_days_before": {
+   "2025-01-18": {
+    "entry_day": "2024-11-08",
+    "entry": 0.72509,
+    "target": 0.33170264138682315,
+    "stop": 0.870108,
+    "exit_reason": "stop",
+    "exit_day": "2024-11-11",
+    "exit_price": 0.9576,
+    "price_return_short": -0.32066364175481654
+   },
+   "2026-01-18": {
+    "entry_day": "2025-11-08",
+    "entry": 0.65989,
+    "target": 0.4281211563638985,
+    "stop": 0.7918679999999999,
+    "exit_reason": "target",
+    "exit_day": "2025-12-15",
+    "exit_price": 0.41651,
+    "price_return_short": 0.36881904559850887
+   }
+  },
+  "first_touch_all_start_days": {
+   "starts": 608,
+   "target": 0.4753289473684211,
+   "stop": 0.524671052631579,
+   "neither": 0.0
+  }
+ }
+}

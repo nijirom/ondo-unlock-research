@@ -1,0 +1,85 @@
+{
+  "scope": "Research snapshot at the 8 Nov 2026 close. No probability forecast.",
+  "market": {
+    "referenceDate": "2026-11-08",
+    "price": 0.3508218437211344,
+    "circulatingMarketcap": 1708267555,
+    "fdv": 3508218437.211344,
+    "circulation": 4869330647,
+    "totalSupply": 10000000000,
+    "unlock": [
+      {
+        "time": 1800230400,
+        "unlock-amount": 1939613682,
+        "pct-of-circulating-supply-unlocked": 39.833271194984434
+      }
+    ],
+    "funding": {
+      "settlements": 48,
+      "sum": 0.002103059999999999,
+      "intervalHours": [
+        4
+      ]
+    },
+    "latestPerp": {
+      "time": 1794096000,
+      "closePricePerUnit": 0.3513,
+      "volumeUSD": 39828036.03457,
+      "openInterestUSD": 33191064.80214411
+    }
+  },
+  "unlock": {
+    "five_step": {
+      "ecosystem_growth": 792052170.8399999,
+      "protocol_development": 660000000.0,
+      "private_sales": 258049208.8
+    },
+    "five_step_total": 1710101379.6399999,
+    "share_of_float": 0.35119845079602374,
+    "usd_at_reference": 599940918.9553604,
+    "four_step_total": 1939613681.84,
+    "four_step_share_of_float": 0.39833271191698555,
+    "four_step_flat_cap_change": -0.2848626142564512,
+    "caveat": "Vesting contracts not read. Schedule size is not a forecast of transfers or sales."
+  },
+  "trade": {
+    "direction": "short ONDO, unhedged",
+    "entry": 0.3508218437211344,
+    "target": 0.26,
+    "stop_daily_close_above": 0.42,
+    "gain_at_target": 0.25888309222081385,
+    "loss_at_stop": 0.19718885102791606,
+    "flat_cap_price": 0.2596375414095959,
+    "circulating_cap_at_entry": 1708267555.2683642,
+    "circulating_cap_at_target": 1710652326.9264,
+    "circulating_cap_at_stop": 2045118871.74,
+    "latest_exit": "2027-04-18",
+    "breakeven_probability_target_first": {
+      "costs_0pct": 0.43236347674291015,
+      "costs_2pct": 0.4762162072080519,
+      "costs_5pct": 0.5419953029057646
+    },
+    "btc_rally_to_stop_at_beta_1.26": 0.1564990881173937
+  },
+  "revenue": {
+    "window": [
+      "2026-10-11",
+      "2026-11-07"
+    ],
+    "net_28d": 2655493.5738118803,
+    "previous_28d": 1214226.5760885715,
+    "annualized": 34616255.51576201,
+    "fdv_to_revenue": 101.34598283208095,
+    "fdv_to_twice_revenue": 50.672991416040475,
+    "buyback_at_40pct": 13846502.206304803,
+    "buyback_share_of_circulating_cap": 0.00810558168465876,
+    "revenue_for_2pct_fdv_yield_at_40pct": 175410921.86056718,
+    "caveat": "Provider-tracked net protocol revenue from 31 May 2026. Not income to ONDO holders."
+  },
+  "provenance": {
+    "market": "ondo-finalist-refresh.json",
+    "revenue": "ondo-blockworks-history.json",
+    "event_diagnostics": "ondo-event-robustness.json",
+    "tracing": "allium-ondo-unlock/trace_result.json"
+  }
+}
