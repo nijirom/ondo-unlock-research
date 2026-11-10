@@ -17,7 +17,3 @@ Code and result files behind a short thesis on ONDO written for the Franklin Cry
 ## What is not here
 
 The raw Blockworks API responses and the raw Allium exports are not included, because they were obtained through competition access. The scripts read them from `data/ondo-blockworks-history.json`, `data/ondo-finalist-refresh.json` and the Allium export files named in `queries.sql`, so the scripts will not run end to end from this repository alone. The result files they wrote are included so the numbers can be checked against the code.
-
-## Caveats
-
-Two unlocks on one token are the whole direct sample. The replay levels were chosen after looking at both. Wallet roles are inferred from behaviour, and an exchange deposit is not a sale.
